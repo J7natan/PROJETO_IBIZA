@@ -1,8 +1,182 @@
 body{
-    background-color: #fff;
+    background-color: #f8f7f7;
     color: rgb(245, 91, 30);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
+}
+
+h1{
+    color: rgb(245, 91, 30);
+    margin-left: -100px;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+span{
+    color: purple;
+    margin-left: -30px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+}
+
+a{
+    color: blueviolet;
+}
+
+a:hover{
+    color: grey;
+    transition: 0,3s;
+}
+
+#plano_btn:hover {
+    background-color: rgb(51, 56, 59);
+    color: rgb(233, 72, 8);
+    text-align: center;
+}
+
+#plano_btn {
+    padding:20px;
+    border: 2px solid;
+    border-radius: 8px;
+    color: blueviolet;
+    text-align: left; 
+}
+
+#home:hover {
+    background-color: rgb(51, 56, 59);
+    color: rgb(233, 72, 8);
+    text-align: center;
+}
+
+#home {
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 8px;
+    color: blueviolet;
+    text-align: left; 
+}
+
+#servicos:hover {
+    background-color: rgb(51, 56, 59);
+    color: rgb(233, 72, 8);
+    text-align: center;
+}
+
+#servicos {
+    padding:20px;
+    border: 2px solid;
+    border-radius: 8px;
+    color: blueviolet;
+    text-align: left; 
+}
+
+#contato:hover {
+    background-color: rgb(51, 56, 59);
+    color: rgb(233, 72, 8);
+    text-align: center;
+}
+
+#contato {
+    padding:20px;
+    border: 2px solid;
+    border-radius: 8px;
+    color: blueviolet;
+    text-align: left; 
+}
+
+#sobre:hover {
+    background-color: rgb(51, 56, 59);
+    color: rgb(233, 72, 8);
+    text-align: center;
+}
+
+#sobre {
+    padding:20px;
+    border: 2px solid;
+    border-radius: 8px;
+    color: blueviolet;
+    text-align: left; 
+}
+
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+}
+
+h2{
+    font-weight: 500;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: -30px;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    line-height: 20px;
+    max-width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;   
+}
+
+.foto{
+   width: 800px; 
+   height: 600px;
+   border-radius: 30px;
+   margin-left: 80px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: -30px;
+}
+
+input{
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;   
+}
+
+form [type="submit"] {
+    background-color: blueviolet;
+    color: azure;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+.foto1{
+    width: 1080px; 
+    height: 720px;
+    border-radius: 30px;
+    margin-left: 30px;
 }
